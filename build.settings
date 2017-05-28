@@ -1,0 +1,22 @@
+-- build.settings for project: Dots
+-- Managed with http://CoronaProjectManager.com
+-- Copyright 2013 . All Rights Reserved.
+
+settings = {
+	orientation =
+	{
+		default = "portrait",
+		supported = {"portrait", "portraitUpsideDown"}
+	},
+	iphone =
+	{
+		plist=
+		{
+			UIStatusBarHidden=true,
+                                                        UIAppFonts = 
+                                                         {
+                                                        "QuicksandLight.ttf"
+                                                         }
+		},
+	},
+}
